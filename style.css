@@ -1,0 +1,11 @@
+body {
+  font-family: "Alegreya Sans", sans-serif;
+}
+.height {
+  min-height: 100vh;
+}
+.title-underline {
+  width: 150px;
+  height: 3px;
+  margin: 0 auto;
+}
