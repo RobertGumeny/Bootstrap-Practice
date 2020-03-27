@@ -32,6 +32,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- SECTION Navbar -->
+
+    <nav class="navbar py-3 fixed-top navbar-dark navbar-expand-md bg-primary">
+      <a href="#" class="navbar-brand text-uppercase font-italic">first website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-links">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#header" class="nav-link">home</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+          <li class="nav-item"><a href="#team" class="nav-link">team</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link">pricing</a></li>
+
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- !SECTION End Navbar-->
+
     <!-- SECTION Header Section-->
     <header id="header" class="bg-dark">
       <div class="container">
@@ -52,13 +76,15 @@
             <a href="#" class="btn btn-outline-warning btn-large m-2"
               >Click Here</a
             >
+            <div id="skills"></div>
           </div>
         </div>
       </div>
     </header>
     <!-- !SECTION End of Header Section-->
     <!-- SECTION Skills Section-->
-    <section id="skills" class="py-5 bg-light">
+
+    <section class="py-5 bg-light">
       <div class="container">
         <!-- Title Row-->
         <div class="row">
@@ -175,6 +201,7 @@
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit,
                   ipsa!
                 </p>
+                <div id="projects"></div>
               </div>
             </div>
           </div>
@@ -185,7 +212,7 @@
     <!-- !SECTION End of About Section-->
     <!-- SECTION Project Section -->
 
-    <section id="projects" class="py-5 bg-secondary">
+    <section class="py-5 bg-secondary">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -239,6 +266,7 @@
               alt="project"
               class="img-fluid"
             />
+            <div id="team"></div>
           </div>
         </div>
       </div>
@@ -246,7 +274,7 @@
 
     <!-- !SECTION End of Project Section -->
     <!-- SECTION Team Section-->
-    <section id="team" class="py-5 bg-light">
+    <section class="py-5 bg-light">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -614,6 +642,7 @@
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Nesciunt, placeat?
             </p>
+            <div id="contact"></div>
           </div>
         </div>
       </div>
@@ -622,7 +651,7 @@
     <!-- !SECTION End Blog section-->
     <!-- SECTION Contact section-->
 
-    <section id="contact" class="bg-warning p-5">
+    <section class="bg-warning p-5">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -749,8 +778,189 @@
 
     <!-- !SECTION End review section-->
     <!-- SECTION Progress Section -->
-
+    <div class="section py-5" id="progress">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="display-4 text-uppercase text-white mb-0">
+            <strong>progress</strong>
+          </h1>
+          <div class="title-underline bg-primary"></div>
+          <p class="mt-2 text-capitalize text-dark">
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-4 mx-auto">
+          <!-- Progress Bar-->
+          <h1 class="text-white text-uppercase"><i class="pr-3 fab fa-html5 text-danger"></i>html5</h1>
+          <div class="progress bg-light mb-2">
+            <div class="progress-bar bg-danger" style="width: 80%"'></div>
+          </div>
+          <!-- End Progress Bar-->
+          <!-- Progress Bar-->
+          <h1 class="text-white text-uppercase"><i class="pr-3 fab fa-css3 text-primary"></i>css3</h1>
+            <div class="progress bg-light mb-2">
+              <div class="progress-bar bg-primary" style="width: 60%"'></div>
+            </div>
+          <!-- End Progress Bar-->
+                              <!-- Progress Bar-->
+          <h1 class="text-white text-uppercase"><i class="pr-3 fab fa-js text-warning"></i>JavaScript</h1>
+          <div class="progress bg-light mb-2">
+            <div class="progress-bar bg-warning" style="width: 20%"'></div>
+          </div>
+          <!-- End Progress Bar-->
+          <!-- Progress Bar-->
+            <h1 class="text-white text-uppercase"><i class="pr-3 fas fa-bullseye text-bootstrap-purple"></i>bootstrap</h1>
+            <div class="progress bg-light mb-2">
+               <div class="progress-bar bg-bootstrap-purple" style="width: 80%"'></div>
+            </div>
+            <div id="pricing"></div>
+           <!-- End Progress Bar-->
+        </div>
+      </div>
+    </div>
     <!-- !SECTION End progress section-->
+    <!-- SECTION Pricing section -->
+
+    <section class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="display-4 text-uppercase text-dark mb-0">
+              <strong>pricing</strong>
+            </h1>
+            <div class="title-underline bg-danger"></div>
+            <p class="mt-2 text-capitalize text-dark">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 py-4 mb-0">
+            <div class="card mb-0 border-dark">
+              <div class="card-header bg-primary text-white text-center py-3">
+                <h3>STANDARD</h3>
+              </div>
+              <div class="card-title text-center py-3">
+                <h4>
+                  <sup>$</sup>10<sub>/month</sub>
+                </h4>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+              </ul>
+              <div class="card-footer">
+                <a href="" class="btn btn-outline-dark btn-block text-capitalize">sign up</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-2 mb-0">
+            <div class="card mb-0 border-dark">
+              <div class="card-header bg-primary text-white text-center py-3">
+                <h3>BASIC</h3>
+              </div>
+              <div class="card-title text-center py-3">
+                <h4>
+                  <sup>$</sup>5<sub>/month</sub>
+                </h4>
+              </div>
+              <div class="card-body">
+                <ul class="list-group text-center">
+                  <li class="list-group-item">Lorem, ipsum dolor.</li>
+                  <li class="list-group-item">Lorem, ipsum dolor.</li>
+                  <li class="list-group-item">Lorem, ipsum dolor.</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-outline-dark btn-block text-capitalize">sign up</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-4 mb-0">
+            <div class="card mb-0 border-dark">
+              <div class="card-header bg-primary text-white text-center py-3">
+                <h3>PREMIUM</h3>
+              </div>
+              <div class="card-title text-center py-3">
+                <h4>
+                  <sup>$</sup>25<sub>/month</sub>
+                </h4>
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+                <li class="list-group-item">Lorem, ipsum dolor.</li>
+              </ul>
+              <div class="card-footer">
+                <a href="" class="btn btn-outline-dark btn-block text-capitalize">sign up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !SECTION End pricing section -->
+    <!-- SECTION Footer section-->
+
+    <footer id="footer" class="bg-dark py-5">
+      <div class="container">
+
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="display-4 text-uppercase text-white mb-0">
+                <strong>footer</strong>
+              </h1>
+              <div class="title-underline bg-primary"></div>
+              <p class="mt-2 text-capitalize text-white">
+                Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mx-auto text-center">
+              <a href="#" class="btn">
+                <fab class="fab fa-facebook fa-3x text-primary m-2"></fab>
+              </a>
+              <a href="#" class="btn">
+                <fab class="fab fa-twitter fa-3x text-primary m-2"></fab>
+              </a>
+              <a href="#" class="btn">
+                <fab class="fab fa-instagram fa-3x text-primary m-2"></fab>
+              </a>
+              <a href="#" class="btn">
+                <fab class="fab fa-google-plus fa-3x text-primary m-2"></fab>
+              </a>
+              <button type="button" class="btn btn-danger d-block mx-auto my-3" data-toggle="modal" data-target="#modal">log out</button>
+            </div>
+          </div>
+
+
+      </div>
+    </footer>
+    <!-- !SECTION End footer section-->
+
+    <!-- SECTION Modal -->
+    <div class="modal fade" id="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">sorry to see you leave!</h3>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>This is some random text in the modal body</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !SECTION -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

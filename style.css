@@ -1,6 +1,7 @@
 body {
   font-family: "Alegreya Sans", sans-serif;
 }
+
 .height {
   min-height: 100vh;
 }
@@ -22,4 +23,17 @@ body {
 #filler {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./images/projects-1.jpeg) center/cover no-repeat fixed;
+}
+#progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/projects-3.jpeg) center/cover no-repeat fixed;
+}
+.bg-bootstrap-purple {
+  background-color: #401f7c;
+}
+.text-bootstrap-purple {
+  color: #401f7c;
+}
+#progress i {
+  text-shadow: 0 0 4px white;
 }
